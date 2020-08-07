@@ -22,7 +22,7 @@
 
   "rich-text#about-content": {
     "props": {
-      "text": " FlatFlat is an electronics store with a long standing tradition for creating modern and vintage items. Out objective is to create home appliances that make your house stand out, no matter your style. Merely 2 months old, we're already the store with the most beautiful products among all VTEX stores. We are currently building our site with the aim of giving our customers an unforgetable experience with our brand!"
+      "text": " FlatFlat is an instagram store with a long standing tradition for creating modern and vintage items. Out objective is to create home appliances that make your house stand out, no matter your style. Merely 2 months old, we're already the store with the most beautiful products among all VTEX stores. We are currently building our site with the aim of giving our customers an unforgetable experience with our brand!"
     }
   },
 
@@ -55,8 +55,8 @@
 
   "tab-list.item#home2": {
     "props": {
-      "tabId": "electronics",
-      "label": "Electronics"
+      "tabId": "instagram",
+      "label": "Instagram"
     }
   },
 
@@ -68,9 +68,9 @@
   },
 
   "tab-content.item#home2": {
-    "children": ["rich-text#home2"],
+    "children": ["iframe"],
     "props": {
-      "tabId": "electronics"
+      "tabId": "instagram"
     }
   },
 
@@ -82,11 +82,11 @@
     }
   },
 
-  "rich-text#home2": {
+  "iframe": {
     "props": {
-      "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
-      "textPosition": "CENTER",
-      "font": "t-heading-3"
+      "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
+      "width": 800,
+      "height": 1000
     }
   }
 }
